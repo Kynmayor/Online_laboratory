@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="image.css">
+
+    <title>Alikay Education Center</title>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-light nav-shadow" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a href="#intro" class="navbar-brand nav-bar brand-display">
+                <img src="website logo.avif" alt="" width="60" height="60" class="d-inline-block align-text-top logo" style="border-radius: 50%;">
+                <div class="fw-bold text-secondary brand-name">
+                    Alikay Hub
+                </div>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Laboratory
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Biology</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Chemistry</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Physics</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#signup" class="btn btn-secondary">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- Main image and text -->
+    <section id="intro">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-7 text-primary">AliKay Educational Center</div>
+                        <div class="display-6 text-muted">Your Trusted Educational Center</div>
+                    </h1>
+                    <p class="lead my-3 text-muted">
+                        This is an online Science Laboratory where you get to learn about
+                        laboratory equipments and their uses.
+                    </p>
+                    <a href="#laboratory" class="btn btn-secondary">Start Now</a>
+                </div>
+
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid" src="21095-removebg-preview.png" alt="books">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <h3 class="text-center">Pioneers Of This Grand Project</h3>
+
+    <!-- Image slider -->
+    <div class="container container-fluid">
+
+        <div class="gallery" id="gallery">
+            <div class="gallery-container">
+                <img class="gallery-item gallery-item-1" src="IMG_3325.JPG" data-index="1" alt="">
+                <img class="gallery-item gallery-item-2" src="IMG_3320.JPG" data-index="2" alt="">
+                <img class="gallery-item gallery-item-3" src="IMG_3337.JPG" data-index="3" alt="">
+                <img class="gallery-item gallery-item-4" src="IMG-20211216-WA0067.jpg" data-index="4" alt="">
+                <img class="gallery-item gallery-item-5" src="PHLEXY(48).jpg" data-index="5" alt="">
+                <!-- <img class="gallery-item gallery-item-1" src="slider images/image1.jpg" data-index="6" alt=""> -->
+            </div>
+    
+            <div class="gallery-controls">
+    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <nav class="navbar" style="background-color: #e3f2fd;">
+        <div class="foot">
+            <h3>Support Us!</h3>
+            <p class="text-center" style="text-align: center;">
+                The Alikay Educational Project is funded by the community. 
+                Join us in empowering learners around the globe by supporting The Alikay Project!
+            </p>
+        </div>
+        <div class="foot btn-foot">
+            <button class="footer-btn">Learn More</button>
+            <button class="footer-btn">Donate Now</button>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <a href="#intro" class="navbar-brand nav-bar brand-display">
+                <img src="/images/website logo.avif" alt="" width="30" height="30" class="d-inline-block align-text-top logo" style="border-radius: 50%;">
+                <div class="text-secondary brand-name">
+                    Alikay Hub
+                </div>
+            </a>
+            <p>@2023 | All rights reserved</p>
+        </div>
+    </nav>
+    
+    <script src="image.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
